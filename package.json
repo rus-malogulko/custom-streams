@@ -1,0 +1,20 @@
+{
+  "name": "custom-streams",
+  "version": "1.0.0",
+  "description": "This repo describes custom streams implementation based on 4 main types: read, write, duplex and mutation.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rus-malogulko/custom-streams.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rus-malogulko/custom-streams/issues"
+  },
+  "homepage": "https://github.com/rus-malogulko/custom-streams#readme"
+}
