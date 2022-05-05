@@ -40,6 +40,7 @@ concatItems([1, 2, 3, 4, 5]).then(() => console.log('Promise resolved after all 
 
 // RESULT:
 
+// Transform: 1
 // Writing test
 // Writing test
 // Writing test

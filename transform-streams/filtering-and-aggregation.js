@@ -45,7 +45,7 @@ class AggregationStream extends Transform {
 }
 
 const filter = new FilterStream(chunk => chunk.startsWith('a'));
-const aggregation = new AggregationStream(chunks => chunks.join(', '));
+const aggregation = new AggregationStream(chunks => chunks.join('-'));
 
 process.stdin
   .pipe(filter)
